@@ -38,8 +38,10 @@
         <textarea name="comments_field"></textarea>
       </div>
     </fieldset>
-    <input type="hidden" name="hidden_field" value="eadevor">
-    <input type="submit"> 
+    <div>
+      <input type="hidden" name="hidden_field" value="eadevor">
+      <input type="submit" value="Submit!"> 
+    </div>
   </form>
 </body>
 </html>
