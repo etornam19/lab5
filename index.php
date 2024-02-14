@@ -10,6 +10,8 @@ $comments = $_REQUEST['comments_field'];
 $gender = $_REQUEST['gender_field'];
 $available = $_REQUEST['available_field'];
 $age = $_REQUEST['age_field'];
+$levelOfEducation = $_REQUEST['level_of_education_field'];
+$gradePointAverage = $_REQUEST['grade_point_average_field'];
 
 ?>
 <!DOCTYPE html>
@@ -32,7 +34,7 @@ $age = $_REQUEST['age_field'];
     <p>This page will display the results of the form that was submitted to it.</p>
   </div>
   <hr><br>
-  <h1>Thank you for your Lab form submission, <?php echo htmlentities($firstName) ?>!</h1>
+  <h1>Thank you for your College form submission, <?php echo htmlentities($firstName) ?>!</h1>
   <div class="box">
   <h2>This section contains the information provided in the my info section:</h2>
     <p><strong>First Name:</strong> <?php echo htmlentities($firstName) ?></p>
@@ -41,10 +43,12 @@ $age = $_REQUEST['age_field'];
     <p><strong>Email Address:</strong> <?php echo htmlentities($email) ?></p>
     <p><strong>Gender:</strong> <?php echo htmlentities($gender) ?></p>
     <p><strong>Age:</strong> <?php echo htmlentities($age) ?></p>
+    <p><strong>Grape Point Average:</strong> <?php echo htmlentities($gradePointAverage) ?></p>
+    <p><strong>Level of Education:</strong> <?php echo htmlentities($levelOfEducation) ?></p>
   </div>
   <div class="box">
   <h2>This section contains the information provided in the availibility section:</h2>
-  <h3>Days Selected as Available:</h3>
+  <h3>Selected major(s):</h3>
   <?php
     if (is_array($available)){
       foreach ($available as $ckvalue) {
