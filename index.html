@@ -5,7 +5,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Volunteer form</h1>
+  <h1>College Application</h1>
   <form method="post" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" enctype="multipart/form-data">
     <fieldset>
       <legend>Your Info</legend>
@@ -13,6 +13,8 @@
       <div><label>last name: <input size="100" type="text" name="last_name_field"></label></div>
       <div><label>phone: <input size="100" type="text" name="phone_field"></label></div>
       <div><label>email: <input size="100" type="text" name="email_field"></label></div>
+      <div><label>level of education: <input size="100" type="text" name="level_of_education_field"></label></div>
+      <div><label>grade point average: <input size="100" type="text" name="grade_point_average_field"></label></div>
       <div>Gender: </div>
       <div>
         <label>Male <input type="radio" name="gender_field" value="male"></label>
@@ -25,17 +27,17 @@
       </select>
     </fieldset>
     <fieldset>
-      <legend>Your Availability</legend>
-      <h3>Days Available:</h3>
+      <legend>Your Anticipated Major(s)</legend>
+      <h3>Available Majors:</h3>
       <div>
-        <div><label>Sunday <input type="checkbox" name="available_field[]" value="Sunday"></label></div>
-        <div><label>Monday <input type="checkbox" name="available_field[]" value="Monday"></label></div>
-        <div><label>Tuesday <input type="checkbox" name="available_field[]" value="Tuesday"></label></div>
-        <div><label>Wednesday <input type="checkbox" name="available_field[]" value="Wednesday"></label></div>
-        <div><label>Thursday <input type="checkbox" name="available_field[]" value="Thursday"></label></div>
-        <div><label>Friday <input type="checkbox" name="available_field[]" value="Friday"></label></div>
-        <div><label>Saturday <input type="checkbox" name="available_field[]" value="Saturday"></label></div>
-        <h3>Comments</h3>
+        <div><label>Computer Science <input type="checkbox" name="available_field[]" value="Computer_Science"></label></div>
+        <div><label>Psychology <input type="checkbox" name="available_field[]" value="Psychology"></label></div>
+        <div><label>Public Health <input type="checkbox" name="available_field[]" value="Public_Health"></label></div>
+        <div><label>Information Technology Management <input type="checkbox" name="available_field[]" value="Information_Technology_Management"></label></div>
+        <div><label>Biomedical Engineering <input type="checkbox" name="available_field[]" value="Biomedical_Engineering"></label></div>
+        <div><label>Pre-Med <input type="checkbox" name="available_field[]" value="Pre-Med"></label></div>
+        <div><label>Humanities <input type="checkbox" name="available_field[]" value="Humanities"></label></div>
+        <h3>Any Comments?</h3>
         <textarea name="comments_field"></textarea>
       </div>
     </fieldset>
