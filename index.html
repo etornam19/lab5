@@ -13,8 +13,8 @@
       <div><label>last name: <input size="100" type="text" name="last_name_field"></label></div>
       <div><label>phone: <input size="100" type="text" name="phone_field"></label></div>
       <div><label>email: <input size="100" type="text" name="email_field"></label></div>
-      <div><label>level of education: <input size="100" type="text" name="level_of_education_field"></label></div>
-      <div><label>grade point average: <input size="100" type="text" name="grade_point_average_field"></label></div>
+      <div><label>education: <input size="100" type="text" name="education_field"></label></div>
+      <div><label>gpa: <input size="100" type="text" name="gpa_field"></label></div>
       <div>Gender: </div>
       <div>
         <label>Male <input type="radio" name="gender_field" value="male"></label>
