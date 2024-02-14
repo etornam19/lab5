@@ -10,8 +10,8 @@ $comments = $_REQUEST['comments_field'];
 $gender = $_REQUEST['gender_field'];
 $available = $_REQUEST['available_field'];
 $age = $_REQUEST['age_field'];
-$levelOfEducation = $_REQUEST['level_of_education_field'];
-$gradePointAverage = $_REQUEST['grade_point_average_field'];
+$education = $_REQUEST['education_field'];
+$gpa = $_REQUEST['gpa_field'];
 
 ?>
 <!DOCTYPE html>
@@ -43,8 +43,8 @@ $gradePointAverage = $_REQUEST['grade_point_average_field'];
     <p><strong>Email Address:</strong> <?php echo htmlentities($email) ?></p>
     <p><strong>Gender:</strong> <?php echo htmlentities($gender) ?></p>
     <p><strong>Age:</strong> <?php echo htmlentities($age) ?></p>
-    <p><strong>Grape Point Average:</strong> <?php echo htmlentities($gradePointAverage) ?></p>
-    <p><strong>Level of Education:</strong> <?php echo htmlentities($levelOfEducation) ?></p>
+    <p><strong>Education Level:</strong> <?php echo htmlentities($education) ?></p>
+    <p><strong>Grape Point Average:</strong> <?php echo htmlentities($gpa) ?></p>
   </div>
   <div class="box">
   <h2>This section contains the information provided in the availibility section:</h2>
