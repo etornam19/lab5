@@ -5,7 +5,7 @@
 </head>
 <body>
   <h1>Volunteer form</h1>
-  <form method="post" autocomplete="on" action:"http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+  <form method="post" autocomplete="on" action:"http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" enctype="multipart/form-data">
     <fieldset>
       <legend>My Info</legend>
       <div><label>first name: <input size="100" type="text" name="first_name_field"></label></div>
